@@ -39,14 +39,16 @@ const [{}, dispatch] = useStateValue();
   
       <Switch>
         <Route path="/login">
+          <Header />
           <Login />
          </Route>
-         <Header />
+        
       <Route path="/checkout">
            <Checkout /> 
          </Route>
-         <Header />
+        
         <Route path="/">
+          <Header />
            <Home /> 
          </Route>
       </Switch>
